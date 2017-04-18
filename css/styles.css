@@ -1,5 +1,7 @@
+/* GLOBAL */
+
 html {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -9,6 +11,53 @@ body {
     margin: 0 auto;
 }
 
-.navmain {
-  font-family: ''
+h1 {
+  font-family: font77462;
+  font-size: 1.875rem; /* 30px */
+  text-decoration: none;
 }
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  display: block;
+}
+
+/* HEADER */
+
+.topbox {
+  background-color: #cd453b;
+  color: #fff;
+  display: inline-flex;
+  width: 100%;
+  padding: 1rem;
+}
+
+.topbox p {
+  padding: 0.5rem 0 0 1.5rem;
+}
+
+.topbox li {
+  padding: 0 0 0 0.25rem;
+}
+
+.socialnav {
+  display: block;
+  list-style-type: none;
+  color: #fff;
+}
+
+.socialnav li {
+  display: inline-block;
+  /*font-family: "socialicoregular";*/
+  font-size: 2rem;
+}
+
+.socialnav hover {
+  color: #85bf51;
+}
+
+/* FOOTER */
