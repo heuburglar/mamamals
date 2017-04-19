@@ -13,9 +13,21 @@ body {
 }
 
 h1 {
-  font-family: font77462;
-  font-size: 1.875rem; /* 30px */
-  text-decoration: none;
+  font-family: 'font81797', sans-serif;
+  font-size: 2rem; /* 26px */
+  color: #55b737;
+  padding: 0 0 1rem 0;
+}
+
+h2 {
+  font-family: 'font81797', sans-serif;
+  font-size: 1.25rem; /* 20px */
+  padding: 0 0 0.5rem 0;
+}
+
+h3 {
+  font-family: 'font76997', sans-serif;
+  font-size: 1rem; /* 16px */
 }
 
 a {
@@ -24,7 +36,8 @@ a {
 }
 
 p {
-  font-size: 0.875rem; /* 14px */
+  font-family: 'Open Sans', sans-serif;
+  font-size: 0.875rem;
 }
 
 .page {
@@ -82,11 +95,6 @@ p {
   transition-property: transform;
 }
 
-/* .socialnav li:last-child {
-  font-size: 0.875rem;
-  margin: 0 0 0 1rem;
-} */
-
 /* ===== HEADER ===== */
 
 .logo {
@@ -142,7 +150,7 @@ p {
 
 .main-index {
   margin: 0 auto;
-  /* width: 100%; */
+  max-width: 1020px;
 }
 
 .image {
@@ -183,7 +191,7 @@ p {
   color: #85bf51;
 }
 
-main p {
+.location {
   color: #000;
   font-family: 'font77462', sans-serif;
   font-size: 1.25rem;
@@ -207,6 +215,32 @@ main p {
   color: #85bf51;
 }
 
+/* ===== MENU ===== */
+
+.menu {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.float-right {
+  float: right;
+}
+
+.h3 {
+  font-family: 'font76997', sans-serif;
+  font-size: 1rem; /* 16px */
+}
+
+.menu-item {
+  margin: 0 0 2rem 0;
+}
+
+.menu p {
+  max-width: 500px;
+  font-family: 'font76997', sans-serif;
+  font-size: 1.25rem;
+}
 
 
 /* ===== FOOTER ===== */
@@ -291,5 +325,15 @@ main p {
 
 .topbox li:first-child {
   padding: 0;
+  }
+
+  .menu p {
+    max-width: 400px;
+  }
+}
+
+@media (max-width: 440px) {
+  .menu p {
+    max-width: 300px;
   }
 }
