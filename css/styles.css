@@ -288,8 +288,16 @@ main h4 a:hover {
   }
 }
 
-img {
+.image {
     max-width: 100%;
+    display: block;
+}
+
+@media (max-width: 500px) {
+  .image {
+    max-width: 96%;
+    padding 0 2%;
+  }
 }
 
 .section.two-up .image,
@@ -351,6 +359,10 @@ footer p:last-child {
 
 footer p:first-child {
   float: left;
+}
+
+.small {
+  font-size: 0.65rem;
 }
 
 /* ===== MEDIA QUERIES ===== */
