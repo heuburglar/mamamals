@@ -295,8 +295,8 @@ main h4 a:hover {
 
 @media (max-width: 500px) {
   .image {
-    max-width: 96%;
-    padding 0 2%;
+    max-width: 98%;
+    padding-right: 2%;
   }
 }
 
@@ -422,16 +422,16 @@ nav ul li:last-of-type a {
 .menu p {
     max-width: 400px;
   }
-
-footer p {
-    text-align: center;
-    padding-right: 3rem;
-  }
 }
 
 button {
   margin: 0 auto;
 }
+
+footer p {
+    text-align: center;
+    padding-right: 3rem;
+  }
 
 @media (max-width: 440px) {
 
