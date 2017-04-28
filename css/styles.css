@@ -329,6 +329,16 @@ button a:hover {
   color: #000;
 }
 
+/* ===== LOCATION ===== */
+
+.location-main p {
+  margin: 0 auto;
+  font-family: 'font76997', sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  text-align: center;
+}
+
 /* ===== FOOTER ===== */
 
 footer {
