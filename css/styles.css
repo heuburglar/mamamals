@@ -289,16 +289,17 @@ main h4 a:hover {
 }
 
 .image {
-    max-width: 100%;
-    display: block;
+margin: 0 auto;
+max-width: 100%;
+display: block;
 }
 
-@media (max-width: 500px) {
+
+/* @media (max-width: 500px) {
   .image {
-    max-width: 98%;
-    padding-right: 2%;
+    margin: 0 auto;
   }
-}
+} */
 
 .section.two-up .image,
 .section.two-up .article {
